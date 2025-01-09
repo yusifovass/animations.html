@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.first{
+    background-color: midnightblue;
+    width: 40px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 200px;
+    padding: 100px;
+    animation-duration: 4s;
+    animation-name:transform-scale;
+    animation-iteration-count: infinite;
+    
+
+
+}
+@keyframes transform-scale{
+    0%{
+        transform: scale(1);
+        top: 200px;
+        left: 200px;
+        background-color: midnightblue;
+
+    }
+    20%{
+        transform: scale(0.8);
+        top: 200px;
+        left: 200px;
+        background-color: rgb(43, 21, 21);
+    }
+    40%{
+        transform: scale(1.2 , 1);
+        background-color: rgb(164, 56, 56);
+        top: 150px;
+    }
+    60%{
+        transform: scale(1.5 , 0.9);
+        background-color: rgb(146, 97, 6);
+        top: 100px;
+    
+    }
+    80%{
+        transform: scale(1.8 , 0.8);
+        background-color: rgb(173, 114, 5);
+        top: 50px;
+    }
+    100%{
+        transform: scale(2 , 0.6);
+        background-color: rgb(195, 195, 9);
+        top: -50px;
+    }
+
+
+
+}
